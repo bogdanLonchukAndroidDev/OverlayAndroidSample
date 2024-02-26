@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Overlay Android Sample</string>
+    <string name="enter_overlay_json">Enter Overlay JSON:</string>
+    <string name="real_time_video">Real Time Video</string>
+    <string name="linkout_in_browser">Link out in Browser</string>
+    <string name="show_overlay">Show Overlay</string>
+</resources>

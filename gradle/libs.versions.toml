@@ -1,0 +1,166 @@
+[versions]
+compileSdk = "33"
+exoplayer = "2.18.1"
+fragmentKtx = "1.6.1"
+minSdk = "24"
+jvmTarget = "17"
+
+androidxCore = "1.7.0"
+constraintLayout = "2.1.4"
+androidxAppcompat = "1.4.1"
+androidXLifecycleKtx = "2.6.1"
+androidxCSecurityCrypto = "1.1.0-alpha03"
+androidxTestExt = "1.1.3"
+legacySupportV4 = "1.0.0"
+androidxTestEspressoCore = "3.4.0"
+androidxArchTestCore = "2.2.0"
+androidMaterial = "1.7.0"
+flowLayoutmanager = "1.8.0"
+flexBox = "3.0.0"
+circleIndicator = "2.1.6"
+retrofit = "2.9.0"
+okhttp = "4.10.0"
+glide = "4.15.1"
+androidSVG = "1.2.1"
+stripe = "20.4.0"
+slidingPanel = "3.4.0"
+koin-android = "3.4.2"
+koin-android-extensions = "3.0.2"
+koin-core = "3.4.1"
+kotlin-coroutines = "1.7.2"
+kotlin-coroutines-android = "1.6.4"
+ktor = "2.3.2"
+kmp-nativecoroutines = "1.0.0-ALPHA-12"
+kmm-viewmodel = "1.0.0-ALPHA-9"
+kotlin = "1.8.22"
+kotlin-serialization = "1.5.1"
+apolloGraphQl = "3.5.0"
+junit = "4.13.2"
+mockito = "4.7.0"
+mockoSharedResources = "0.23.0"
+napier = "2.6.1"
+ksp = "1.8.22-1.0.11"
+okio = "3.3.0"
+gson = "2.10.1"
+
+[libraries]
+androidx-fragment-ktx = { module = "androidx.fragment:fragment-ktx", version.ref = "fragmentKtx" }
+androidx-legacy-support-v4 = { module = "androidx.legacy:legacy-support-v4", version.ref = "legacySupportV4" }
+androidx-lifecycle-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "androidXLifecycleKtx" }
+androidx-lifecycle-viewodel-ktx = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "androidXLifecycleKtx" }
+androidx-lifecycle-livedata-ktx = { group = "androidx.lifecycle", name = "lifecycle-livedata-ktx", version.ref = "androidXLifecycleKtx" }
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "androidxCore" }
+androidx-appcompat-ktx = { group = "androidx.appcompat", name = "appcompat", version.ref = "androidxAppcompat" }
+androidx-contraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintLayout" }
+androidx-security-crypto = { group = "androidx.security", name = "security-crypto", version.ref = "androidxCSecurityCrypto" }
+androidx-test-ext = { group = "androidx.test.ext", name = "junit", version.ref = "androidxTestExt" }
+androidx-test-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "androidxTestEspressoCore" }
+androidx-arch-test-core = { group = "androidx.arch.core", name = "core-testing", version.ref = "androidxArchTestCore" }
+
+android-material = { group = "com.google.android.material", name = "material", version.ref = "androidMaterial" }
+android-flowlayout-manager = { group = "com.github.simonebortolin", name = "flowlayoutmanager", version.ref = "flowLayoutmanager" }
+exoplayer = { module = "com.google.android.exoplayer:exoplayer", version.ref = "exoplayer" }
+slidingpanel = { group = "com.sothree.slidinguppanel", name = "library", version.ref = "slidingPanel" }
+flexbox = { group = "com.google.android.flexbox", name = "flexbox", version.ref = "flexBox" }
+circle-indicator = { group = "me.relex", name = "circleindicator", version.ref = "circleIndicator" }
+
+retrofit = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit" }
+retrofit-converter-gson = { group = "com.squareup.retrofit2", name = "converter-gson", version.ref = "retrofit" }
+okhttp = { group = "com.squareup.okhttp3", name = "okhttp", version.ref = "okhttp" }
+okhttp-loggin-interceptor = { group = "com.squareup.okhttp3", name = "logging-interceptor", version.ref = "okhttp" }
+gson = { group = "com.google.code.gson", name = "gson", version.ref = "gson" }
+
+glide = { group = "com.github.bumptech.glide", name = "glide", version.ref = "glide" }
+glide-kapt = { group = "com.github.bumptech.glide", name = "compiler", version.ref = "glide" }
+
+android-svg = { group = "com.caverock", name = "androidsvg", version.ref = "androidSVG" }
+
+kotlin-stdlib = { module = "org.jetbrains.kotlin:kotlin-stdlib", version.ref = "kotlin" }
+kotlinx-coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "kotlin-coroutines" }
+kotlinx-coroutines-android = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "kotlin-coroutines-android" }
+kotlinx-coroutines-test = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-test", version.ref = "kotlin-coroutines" }
+
+koin-android = { group = "io.insert-koin", name = "koin-android", version.ref = "koin-android" }
+koin-android-extensions = { group = "io.insert-koin", name = "koin-android-ext", version.ref = "koin-android-extensions" }
+
+koin-core = { group = "io.insert-koin", name = "koin-core", version.ref = "koin-core" }
+ktor-core = { group = "io.ktor", name = "ktor-client-core", version.ref = "ktor" }
+ktor-contentnegotiation = { group = "io.ktor", name = "ktor-client-content-negotiation", version.ref = "ktor" }
+ktor-logging = { group = "io.ktor", name = "ktor-client-logging", version.ref = "ktor" }
+ktor-client-serialization = { group = "io.ktor", name = "ktor-client-serialization", version.ref = "ktor" }
+ktor-serialization = { group = "io.ktor", name = "ktor-serialization-kotlinx-json", version.ref = "ktor" }
+ktor-android = { group = "io.ktor", name = "ktor-client-android", version.ref = "ktor" }
+ktor-android-okhttp = { group = "io.ktor", name = "ktor-client-okhttp", version.ref = "ktor" }
+ktor-ios = { group = "io.ktor", name = "ktor-client-ios", version.ref = "ktor" }
+
+okhttp-logging-interceptor = { group = "com.squareup.okhttp3", name = "logging-interceptor", version.ref = "okhttp" }
+
+okio = { group = "com.squareup.okio", name = "okio", version.ref = "okio" }
+
+kmm-viewmodel = { module = "com.rickclephas.kmm:kmm-viewmodel-core", version.ref = "kmm-viewmodel" }
+
+plugin-kmp-nativecoroutines = { module = "com.rickclephas.kmp:kmp-nativecoroutines-gradle-plugin", version.ref = "kmp-nativecoroutines" }
+plugin-kotlin-serialization = { module = "org.jetbrains.kotlin:kotlin-serialization", version.ref = "kotlin" }
+kotlin-serialization = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "kotlin-serialization" }
+
+apollo-graphql = { group = "com.apollographql.apollo3", name = "apollo-runtime", version.ref = "apolloGraphQl" }
+
+stripe = { group = "com.stripe", name = "stripe-android", version.ref = "stripe" }
+
+moko-shared-resources = { group = "dev.icerock.moko", name = "resources", version.ref = "mockoSharedResources" }
+
+napier = { module = "io.github.aakira:napier", name = "napier", version.ref = "napier" }
+
+plugin-kotlin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
+plugin-ksp = { module = "com.google.devtools.ksp:com.google.devtools.ksp.gradle.plugin", version.ref = "ksp" }
+plugin-android-application = "com.android.tools.build:gradle:8.0.2"
+plugin-google-services = "com.google.gms:google-services:4.3.15"
+plugin-nav-safeargs = "androidx.navigation:navigation-safe-args-gradle-plugin:2.5.1"
+plugin-detekt = "io.gitlab.arturbosch.detekt:detekt-gradle-plugin:1.22.0"
+
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+mockito = { group = "org.mockito", name = "mockito-core", version.ref = "mockito" }
+
+firebase-bom = "com.google.firebase:firebase-bom:30.0.2"
+
+[bundles]
+koinAndroid = [
+    "koin-android",
+    "koin-core",
+]
+
+koinCommon = [
+    "koin-core"
+]
+
+ktorAndroid = [
+    "ktor-android",
+    "ktor-android-okhttp"
+]
+
+ktorCommon = [
+    "ktor-core",
+    "ktor-logging",
+    "ktor-client-serialization",
+    "ktor-contentnegotiation",
+    "ktor-serialization"
+]
+
+ktorIos = [
+    "ktor-ios"
+]
+
+retrofit = [
+    "retrofit",
+    "retrofit-converter-gson",
+    "okhttp",
+    "okhttp-loggin-interceptor"
+]
+
+androidxLifecycle = [
+    "androidx-lifecycle-ktx",
+    "androidx-lifecycle-viewodel-ktx",
+    "androidx-lifecycle-livedata-ktx"
+]
+
+[plugins]

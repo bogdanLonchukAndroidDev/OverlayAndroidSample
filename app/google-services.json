@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "828193163073",
+    "project_id": "library-test-4d66e",
+    "storage_bucket": "library-test-4d66e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:828193163073:android:a9671a6f3351467447c3c0",
+        "android_client_info": {
+          "package_name": "com.overlay.android.sample"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNKksx7RxsDKrhsik3dRYzEz3Gi8I8OME"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
